@@ -1,6 +1,6 @@
-# Western Shooter
+# Cowboy Shooter
 
-Western Shooter is a simple PyGame shooter game where the player gets to fight with lots of monsters! The project was originally written using the pygame library, a Python 2D game development tool as a project of object oriented programming.
+Cowboy Shooter is a fun PyGame action game where you battle a variety of monsters! Built with the Pygame library, this project demonstrates object-oriented programming in Python, all packed into an exciting shooting experience.
 
 ![Western-Shooter (1)](https://user-images.githubusercontent.com/98907729/229298568-bf4723e4-5aae-4873-8914-4e9182e39911.gif)
 
@@ -12,13 +12,18 @@ If you would rather run directly from the source (or want to develop the game), 
 Then you can run python `main.py` or "./main.py" (only for Python 3) in linux operating system to start the game.
 If you ever need to remove a module for any reason, use the command `pip uninstall (module-name)`
 
+## Handling `.tsx` File Recognition
+
+If your IDE mistakenly treats `.tsx` files as TypeScript, you may need to manually configure the file association to XML. This can typically be done by editing the IDE's settings to ensure `.tsx` files are recognized as XML to avoid parsing issues during runtime.
+
+
 ## Instructions
 
 - Player can move in 4 directions up, down, left, right and attack.
 
 ![Alt text](snapshots/right.gif)![Alt text](snapshots/down.gif)![Alt text](snapshots/rattack.gif)
 
-- The player is provided with limited health and the game may automatically close if dies.
+- The player is provided with limited health and a health bar, when the health bar drops completely the game ends.
 - Two types of enemies
   - Coffin: Attacks with shovel on close encounter. Takes 3 bullets to take down.
   
